@@ -1,0 +1,21 @@
+{
+  "_captured_at": "2026-07-14T14:40:45.890396Z",
+  "_captured_run_id": "r_f8b39895b65a46f9b6a912c6ee2423b9",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Read 100 rows from DATALINES.",
+    "NOTE: Wrote energy (100 rows, 3 columns).",
+    "NOTE: PROC ARIMA data=energy",
+    "NOTE: Output dataset energyout1e created with 112 observations.",
+    "NOTE: ODS plot written: arima_acf.spec.json"
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

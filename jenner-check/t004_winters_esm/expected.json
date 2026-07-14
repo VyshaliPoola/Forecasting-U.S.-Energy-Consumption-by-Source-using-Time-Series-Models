@@ -1,0 +1,20 @@
+{
+  "_captured_at": "2026-07-14T14:40:45.877164Z",
+  "_captured_run_id": "r_8e2232f61da04d92aeafc75eeaa3d12a",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Read 100 rows from DATALINES.",
+    "NOTE: Wrote energy (100 rows, 3 columns).",
+    "NOTE: PROC ESM data=energy",
+    "NOTE: Output dataset ENERGYOUT4 created with 112 observations."
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

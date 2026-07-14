@@ -1,0 +1,7 @@
+{
+  "bundle": "t004_winters_esm",
+  "source_file": "Forecasting_FinalProject_SAScode.sas",
+  "source_blob_sha": "f8db3e9106c5194596b1a38aef6cabde1aaec90c",
+  "source_commit": "a2111e3981f3a4e8dd58bbdc6f925e56c59b2415",
+  "notes": "PROC ESM additive Holt-Winters forecast (lead=12) on Biomass; xlsx import replaced by inline DATALINES."
+}

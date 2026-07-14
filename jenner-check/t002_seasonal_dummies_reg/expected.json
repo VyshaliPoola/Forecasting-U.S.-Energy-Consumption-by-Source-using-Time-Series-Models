@@ -1,0 +1,21 @@
+{
+  "_captured_at": "2026-07-14T14:40:45.851166Z",
+  "_captured_run_id": "r_5e083d4d0b2c4db09257f2120c53e384",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Read 100 rows from DATALINES.",
+    "NOTE: Wrote energy (100 rows, 3 columns).",
+    "NOTE: Read 100 rows from energy.",
+    "NOTE: Wrote energy (100 rows, 17 columns).",
+    "NOTE: PROC FREQ"
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

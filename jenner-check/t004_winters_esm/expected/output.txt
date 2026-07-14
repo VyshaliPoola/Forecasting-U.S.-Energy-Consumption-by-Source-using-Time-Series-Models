@@ -1,0 +1,32 @@
+
+Exponential Smoothing Forecast for Biomass_Energy_Consumption
+Method: ADDWINTERS
+Number of Observations: 100
+Forecast Periods: 12
+
+Fit Statistics:
+  RMSE     = 28.0407
+  MAE      = 21.4656
+  MAPE     = 8.7281
+  MSE      = 786.2812
+  AIC      = 592.7237
+
+Smoothing Weights:
+  ALPHA      = 0.3000
+  BETA       = 0.1000
+  GAMMA      = 0.1000
+
+Forecasts:
+  Period     Predict        
+  1          180.9215       
+  2          172.1572       
+  3          218.8212       
+  4          207.3022       
+  5          188.3701       
+  6          218.4134       
+  7          204.7061       
+  8          203.7376       
+  9          227.0505       
+  10         182.2303       
+  11         200.0863       
+  12         185.3142
