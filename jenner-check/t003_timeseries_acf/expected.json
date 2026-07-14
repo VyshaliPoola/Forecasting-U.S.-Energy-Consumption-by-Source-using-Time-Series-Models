@@ -1,0 +1,21 @@
+{
+  "_captured_at": "2026-07-14T14:40:45.864234Z",
+  "_captured_run_id": "r_81d793d61c6648b39ebccb252b5a8b81",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Read 100 rows from DATALINES.",
+    "NOTE: Wrote energy (100 rows, 3 columns).",
+    "NOTE: PROC TIMESERIES data=energy",
+    "NOTE: Output dataset _null_ created with 100 observations.",
+    "NOTE: ODS plot written: timeseries_acf.spec.json"
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

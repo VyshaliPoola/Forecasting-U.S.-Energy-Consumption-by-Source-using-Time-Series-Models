@@ -1,0 +1,7 @@
+{
+  "bundle": "t002_seasonal_dummies_reg",
+  "source_file": "Forecasting_FinalProject_SAScode.sas",
+  "source_blob_sha": "f8db3e9106c5194596b1a38aef6cabde1aaec90c",
+  "source_commit": "a2111e3981f3a4e8dd58bbdc6f925e56c59b2415",
+  "notes": "DATA step builds month dummies m2-m12 + time index t/t2, PROC FREQ tabulates them, PROC REG fits Biomass linear trend with /clb vif dwprob; xlsx import replaced by inline DATALINES."
+}
